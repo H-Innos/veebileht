@@ -1,0 +1,121 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('pattern.png');
+}
+
+.bg {
+    position: relative; 
+    height: 100%;
+    width: 100%;
+}
+/*
+.bg::before {    
+    content: "";
+    background-image: url('pattern.jpg');
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+*/
+.columns {
+    display: flex;
+    
+}
+
+.column {
+    flex: 50%;
+    margin:0px;
+    height:100%;
+}
+
+h1 {
+    display: table;
+    border-radius: 5px;
+    position: relative;
+
+    margin-top: 0px;
+    margin-left: 5px;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: cornflowerblue
+}
+
+h2 {
+    display: table;
+    border-radius:5px;
+    background-color: white;
+    margin: 5px;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: cornflowerblue
+}
+
+p {
+    display:table;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-left:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: justify;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+
+#p1 {
+    text-indent: 20px;
+}
+
+ul {
+    display: table;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 5px;
+    position: relative;
+    list-style:disc, outside;
+}
+
+ol {
+    position: relative;
+    list-style: square outside;
+    padding-bottom: 0;
+}
+
+
+table,
+th,
+td {
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+#t1 {
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    display: table;
+    width: 60%;
+    height: auto;
+    margin-left:10px;
+    border: 5px solid white;
+}
